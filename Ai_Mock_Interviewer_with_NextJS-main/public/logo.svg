@@ -1,0 +1,52 @@
+<svg
+  width="130"
+  height="50"
+  viewBox="0 0 130 50"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="aiMockInterviewLogoTitle"
+>
+  <title id="aiMockInterviewLogoTitle">AI Mock Interview Logo</title>
+
+  <!-- Speech bubble -->
+  <rect
+    x="5"
+    y="5"
+    width="90"
+    height="35"
+    rx="10"
+    ry="10"
+    fill="#1F84EF"
+    stroke="#06E07F"
+    stroke-width="2"
+  />
+  <path
+    d="M95 40 L105 50 L90 45 L95 40 Z"
+    fill="#1F84EF"
+    stroke="#06E07F"
+    stroke-width="2"
+  />
+  
+  <!-- AI Brain Icon (simplified circuit) inside bubble -->
+  <circle cx="50" cy="22.5" r="12" fill="#FFD200" />
+  <circle cx="50" cy="22.5" r="6" fill="#1F84EF" />
+  <line x1="50" y1="16.5" x2="50" y2="28.5" stroke="#FFD200" stroke-width="2" />
+  <line x1="44" y1="22.5" x2="56" y2="22.5" stroke="#FFD200" stroke-width="2" />
+  <circle cx="44" cy="22.5" r="2" fill="#FFD200" />
+  <circle cx="56" cy="22.5" r="2" fill="#FFD200" />
+  <circle cx="50" cy="16.5" r="2" fill="#FFD200" />
+  <circle cx="50" cy="28.5" r="2" fill="#FFD200" />
+  
+  <!-- Text part -->
+  <text
+    x="105"
+    y="32"
+    fill="#1F2937"
+    font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    font-weight="700"
+    font-size="14"
+  >
+    AI 
+  </text>
+</svg>
