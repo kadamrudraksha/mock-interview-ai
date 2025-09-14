@@ -1,13 +1,16 @@
-import React from "react";
+"use client";
+import React, { createContext, useState } from "react";
 import { Header } from "./_components/Header";
 
-function DashboardLayout({ children }) {
+const WebCamContext = createContext(); // no export
+
+export default function DashboardLayout({ children }) {
+  const [data, setData] = useState(null);
+
   return (
-    <div>
+    <WebCamContext.Provider value={{ data, setData }}>
       <Header />
       <div className="mx-5 md:mx-20 lg:mx-36">{children}</div>
-    </div>
+    </WebCamContext.Provider>
   );
 }
-
-export default DashboardLayout;
